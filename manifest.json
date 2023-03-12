@@ -1,0 +1,24 @@
+fetch("https://onlyfans.com/api2/v2/lists/users", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "app-token": "33d57ade8c02dbc5a333db99ff9ae26a",
+    "content-type": "text/plain;charset=UTF-8",
+    "sec-ch-ua": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"Google Chrome\";v=\"110\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "sign": "6820:496628b2632533fc20c0b2fd5961eed86abc29aa:8d7:63d81407",
+    "time": "1677853883394",
+    "user-id": "9044784",
+    "x-bc": "1a2fcb273566c1f2c49f6171cfccf3d4760c5753"
+  },
+  "referrer": "https://onlyfans.com/my/lists/friends",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"friends\":[250780229]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
